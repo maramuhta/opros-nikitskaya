@@ -208,6 +208,38 @@
   .answer-card.warn .count { color: #F0803B; }
   .answer-card.neutral .count { color: #888780; }
 
+  .quotes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .quote-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px 18px;
+    border: 1px solid rgba(92,105,55,0.12);
+    position: relative;
+  }
+
+  .quote-card::before {
+    content: '«';
+    font-family: 'Noto Serif Display', Georgia, serif;
+    font-size: 36px;
+    color: rgba(92,105,55,0.15);
+    position: absolute;
+    top: 6px;
+    left: 14px;
+    line-height: 1;
+  }
+
+  .quote-card p {
+    font-size: 13px;
+    color: #2C2C2A;
+    line-height: 1.6;
+    padding-left: 18px;
+  }
+
   .insight {
     background: #5C6937;
     border-radius: 12px;
@@ -391,6 +423,28 @@
       <div class="count">2</div>
       <div class="text">Всё устраивает, просто нет времени или возможности</div>
     </div>
+  </div>
+
+  <div class="section-title">Что важно, чтобы продолжить занятия — голоса гостей</div>
+  <div class="quotes-grid">
+    <div class="quote-card"><p>Больше инь йоги в расписании 🥹</p></div>
+    <div class="quote-card"><p>Побольше акционных предложений</p></div>
+    <div class="quote-card"><p>У вас всё прекрасно, можно добавить больше спецпредложений</p></div>
+    <div class="quote-card"><p>Если бы существовала более выгодная система абонементов, то я бы хотела продолжить</p></div>
+    <div class="quote-card"><p>Если бы абонемент не сгорал так быстро</p></div>
+    <div class="quote-card"><p>Абонемент, который объединит три студии</p></div>
+    <div class="quote-card"><p>Программа лояльности и больше классов джива-муктти</p></div>
+    <div class="quote-card"><p>Наличие систем лояльности</p></div>
+    <div class="quote-card"><p>Найти своего преподавателя</p></div>
+    <div class="quote-card"><p>Я бы хотела промежуточный уровень между силовой йогой и общим. На одной практике было слишком легко, на другой — непосильно тяжело</p></div>
+    <div class="quote-card"><p>Больше классов по времени</p></div>
+    <div class="quote-card"><p>Всё круто, неудобные локации для меня — иногда бываю проездом</p></div>
+    <div class="quote-card"><p>Скорее всего буду приходить иногда, когда буду в Петербурге. Живу в Москве. Атмосфера понравилась, но преподаватель и практика были средними — не было эффекта вау</p></div>
+    <div class="quote-card"><p>Я обязательно приду, когда приеду снова дольше чем на 1 день 🙂</p></div>
+    <div class="quote-card"><p>Я живу очень далеко от вас 😔</p></div>
+    <div class="quote-card"><p>Было много работы, не успевала приехать на занятие, поэтому не доходила</p></div>
+    <div class="quote-card"><p>Всё понравилось</p></div>
+    <div class="quote-card"><p>Все, что могло бы быть важно, присутствует!</p></div>
   </div>
 
   <div class="insight">
